@@ -1,6 +1,6 @@
 {
   "name": "@longlonga/clickhouse",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "MCP server for ClickHouse — query, DDL, and data management",
   "type": "module",
   "bin": {
