@@ -4,19 +4,19 @@
   "description": "MCP server for ClickHouse — query, DDL, and data management",
   "type": "module",
   "bin": {
-    "clickhouse": "./dist/index.js"
+    "clickhouse": "dist/index.js"
   },
   "files": [
     "dist"
   ],
   "scripts": {
-    "build": "tsc && chmod +x dist/index.js",
+    "build": "tsc",
     "dev": "tsx src/index.ts",
     "start": "node dist/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/donald-ada/clickhouse.git"
+    "url": "git+https://github.com/donald-ada/clickhouse.git"
   },
   "keywords": [
     "mcp",
