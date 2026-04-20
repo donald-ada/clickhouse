@@ -1,16 +1,29 @@
 {
-  "name": "clickhouse",
+  "name": "@longlonga/clickhouse",
   "version": "0.1.0",
   "description": "MCP server for ClickHouse — query, DDL, and data management",
   "type": "module",
   "bin": {
     "clickhouse": "./dist/index.js"
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "dev": "tsx src/index.ts",
     "start": "node dist/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/donald-ada/clickhouse.git"
+  },
+  "keywords": [
+    "mcp",
+    "clickhouse",
+    "model-context-protocol"
+  ],
+  "license": "MIT",
   "dependencies": {
     "@clickhouse/client": "^1.8.2",
     "@modelcontextprotocol/sdk": "^1.10.2",
