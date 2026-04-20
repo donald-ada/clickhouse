@@ -1,0 +1,24 @@
+{
+  "name": "clickhouse",
+  "version": "0.1.0",
+  "description": "MCP server for ClickHouse — query, DDL, and data management",
+  "type": "module",
+  "bin": {
+    "clickhouse": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@clickhouse/client": "^1.8.2",
+    "@modelcontextprotocol/sdk": "^1.10.2",
+    "zod": "^3.24.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3"
+  }
+}
