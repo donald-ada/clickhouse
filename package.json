@@ -24,6 +24,9 @@
     "model-context-protocol"
   ],
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@clickhouse/client": "^1.8.2",
     "@modelcontextprotocol/sdk": "^1.10.2",
